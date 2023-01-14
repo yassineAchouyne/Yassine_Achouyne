@@ -345,7 +345,7 @@ h1, h2, p {
   }
   
   .skills__react {
-	width: 40%;
+	width: 62%;
   }
   .skills__php{
 	width: 91%;
@@ -354,7 +354,10 @@ h1, h2, p {
 	width: 20%;
   }
   .skills__sql{
-	width: 75%;
+	width: 95%;
+  }
+  .skills__mongo{
+	width: 90%;
   }
   .skills__img {
 	border-radius: .5rem;
