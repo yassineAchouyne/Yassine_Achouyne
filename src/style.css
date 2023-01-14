@@ -75,11 +75,7 @@ h1, h2, p {
 	text-decoration: none;
   }
   
-  img {
-	max-width: 100%;
-	height: auto;
-	display: block;
-  }
+
   
   /*===== CLASS CSS ===== */
   .section-title {
