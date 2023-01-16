@@ -358,6 +358,11 @@ h1, h2, p {
   .skills__img {
 	border-radius: .5rem;
   }
+  img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+  }
   
   /* ===== WORK =====*/
   .work__container {
