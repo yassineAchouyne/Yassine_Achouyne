@@ -377,6 +377,7 @@ h1, h2, p {
   
   .work__img img {
 	transition: 1s;
+	max-width: 100%;
   }
   
   .work__img img:hover {
