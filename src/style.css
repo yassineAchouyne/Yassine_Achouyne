@@ -385,16 +385,7 @@ h1, h2, p {
   }
   
   /* ===== CONTACT =====*/
-  /* .contact__input {
-	width: 100%;
-	font-size: var(--normal-font-size);
-	font-weight: var(--font-semi);
-	padding: 1rem;
-	border-radius: .5rem;
-	border: 1.5px solid #54afa6;
-	outline: none;
-	margin-bottom: var(--mb-4);
-  } */
+
   
   .contact__button {
 	display: block;
