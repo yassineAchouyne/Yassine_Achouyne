@@ -550,3 +550,10 @@ h1, h2, p {
 	
   }
   
+  #prelouder{
+	background:#fff url(img/Hourglass.gif) no-repeat center center;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+  }

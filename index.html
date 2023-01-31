@@ -40,6 +40,7 @@
     <title>Yassine Achouyne</title>
   </head>
   <body>
+    <div id="prelouder">yassine</div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#"
@@ -126,6 +127,7 @@
           <img src="src/img/yassine.png" alt="yassine achouyne" />
         </div>
       </section>
+      
       <div>
         <section class="about section" id="about">
           <h2 class="section-title" data-aos="flip-up">About</h2>
@@ -140,7 +142,7 @@
               <img src="src/img/1672090044291.jpg" alt="" />
             </div>
 
-            <div data-aos="fade-up-left">
+            <div data-aos="zoom-out">
               <h2 class="about__subtitle">I'am Yassine Achouyne</h2>
               <p class="about__text">
                 Student at ISTA NTIC SAFI on the web programming (front-end &&
@@ -301,14 +303,7 @@
             </div>
           </div>
 
-          <div>
-            <img
-               src="" 
-              alt=""
-              data-aos="fade-left"
-              class="skills__img"
-            />
-          </div>
+          
         </div>
       </section>
 
@@ -357,6 +352,14 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js" integrity="filehash"></script>
     <script>
       AOS.init();
+    </script>
+    <script>
+      var louder=document.getElementById('prelouder');
+      window.addEventListener('load',function(){
+        louder.style.display="none"
+      })
+
+
     </script>
   </body>
 </html>
