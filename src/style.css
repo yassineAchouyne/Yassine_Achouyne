@@ -60,7 +60,13 @@ body {
   color: var(--second-color);
 }
 
-
+#prelouder{
+	background:#fff url(img/Hourglass.gif) no-repeat center center;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 9999999;
+  }
 h1, h2, p {
 	margin: 0;
   }
@@ -126,76 +132,6 @@ h1, h2, p {
 	box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
   }
   
-  /*===== NAV =====*/
-  /* .nav {
-	height: var(--header-height);
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	font-weight: var(--font-semi);
-  } */
-  
-  /* @media screen and (max-width: 767px) {
-	.nav__menu {
-	  position: fixed;
-	  top: var(--header-height);
-	  right: -100%;
-	  width: 80%;
-	  height: 100%;
-	  padding: 2rem;
-	  background-color: var(--second-color);
-	  transition: .5s;
-	}
-  }
-  
-  .nav__item {
-	margin-bottom: var(--mb-4);
-  }
-  
-  .nav__link {
-	position: relative;
-	color: #54afa6;
-  }
-  
-  .nav__link:hover {
-	position: relative;
-  }
-  
-  .nav__link:hover::after {
-	position: absolute;
-	content: '';
-	width: 100%;
-	height: 0.18rem;
-	left: 0;
-	top: 2rem;
-	background-color: var(--first-color);
-  }
-  
-  .nav__logo img{
-	width: 100px;
-  }
-  
-  .nav__toggle {
-	color: var(--second-color);
-	font-size: 1.5rem;
-	cursor: pointer;
-  } */
-  
-  /* Active menu */
-  /* .active::after {
-	position: absolute;
-	content: '';
-	width: 100%;
-	height: 0.18rem;
-	left: 0;
-	top: 2rem;
-	background-color: var(--first-color);
-  } */
-  
-  /*=== Show menu ===*/
-  /* .show {
-	right: 0;
-  } */
   
   /*===== HOME =====*/
   .home {
@@ -553,10 +489,3 @@ h1, h2, p {
 	
   }
   
-  #prelouder{
-	background:#fff url(img/Hourglass.gif) no-repeat center center;
-	height: 100vh;
-	width: 100%;
-	position: fixed;
-	z-index: 100;
-  }
