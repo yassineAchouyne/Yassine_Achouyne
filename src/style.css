@@ -289,15 +289,18 @@ h1, h2, p {
   .skills__container {
 	row-gap: 2rem;
 	text-align: center;
+	display: flex;
+  }
+  .skills__container>div{
+	width: 100%;
   }
   
   .skills__subtitle {
 	margin-bottom: var(--mb-2);
+	text-align: center;
   }
   
-  .skills__text {
-	margin-bottom: var(--mb-4);
-  }
+  
   
   .skills__data {
 	display: flex;
