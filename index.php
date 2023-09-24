@@ -348,7 +348,7 @@
             data-aos="zoom-in-up"
             class="work__img"
           >
-            <img src="src/img/ordishop.jpeg" alt="" />
+            <img src="src/img/ordishop.jpeg" alt="YASSINEACHOUYNE />
           </a>
           <a
             href="https://yassineachouyne.github.io/chifrement"
@@ -357,7 +357,7 @@
             data-aos="zoom-in-up"
             class="work__img"
           >
-            <img src="src/img/chifr.jpeg" alt="" />
+            <img src="src/img/chifr.jpeg" alt="YASSINEACHOUYNE" />
           </a>
           <a
             href="https://oummipharma.000webhostapp.com"
@@ -366,7 +366,7 @@
             data-aos="zoom-in-up"
             class="work__img"
           >
-            <img src="src/img/para.png" alt="" />
+            <img src="src/img/para.png" alt="YASSINEACHOUYNE" />
           </a>
           <a
             rel="noopener noreferrer"
@@ -374,7 +374,7 @@
             data-aos="zoom-in-up"
             class="work__img"
           >
-            <img src="src/img/Facture.png" alt="" />
+            <img src="src/img/Facture.png" alt="YASSINEACHOUYNE" />
           </a>
         </div>
       </section>
